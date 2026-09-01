@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - FORMAZA 360°</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-brand">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="46" stroke="#008f6b" stroke-width="6" stroke-dasharray="140 30" stroke-linecap="round"/>
+                    <path d="M50 8 L58 18 H42 Z" fill="#008f6b"/>
+                    <path d="M50 92 L42 82 H58 Z" fill="#0c2340"/>
+                    <rect x="32" y="32" width="10" height="36" rx="2" fill="#008f6b"/>
+                    <rect x="46" y="32" width="10" height="36" rx="2" fill="#0c2340"/>
+                    <rect x="60" y="32" width="10" height="36" rx="2" fill="#008f6b"/>
+                    <rect x="25" y="38" width="50" height="8" rx="2" fill="#0c2340"/>
+                    <rect x="25" y="54" width="50" height="8" rx="2" fill="#008f6b"/>
+                </svg>
+                <div class="brand-text">FORMAZA <span>360°</span></div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                    <li><a href="contacto.html" class="btn-nav">Cotizar Pedido</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-wrapper">
+        <div class="section-title">
+            <h2>Cotizaciones y Contacto B2B</h2>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Hablemos de tu Proyecto</h3>
+                <p>Bríndanos los detalles de las prendas o rollos que necesitas para que un asesor te envíe una proforma detallada con precios por mayor.</p>
+                <br>
+                <p>📍 <strong>Atención en Planta:</strong> Lima, Perú</p>
+                <p>📞 <strong>Teléfono:</strong> (01) 500-3600</p>
+                <p>📱 <strong>WhatsApp Directo:</strong> +51 900 000 000</p>
+                <p>✉️ <strong>Correo:</strong> ventas@formaza360.com</p>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre o Razón Social</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Textil Andina S.A.C." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@empresa.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo">Línea de Interés</label>
+                    <select id="tipo" name="tipo">
+                        <option value="ropa">Confección de Ropa / Uniformes</option>
+                        <option value="industrial">Material Industrial / Telas por metro</option>
+                        <option value="ambos">Ambas Líneas</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Detalle de tu pedido (cantidades, telas, tallas)</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Descríbenos qué productos necesitas cotizar..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Solicitud de Cotización</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2026 FORMAZA 360° - Calidad textil al por mayor</p>
+        </div>
+    </footer>
+
+</body>
+</html>
