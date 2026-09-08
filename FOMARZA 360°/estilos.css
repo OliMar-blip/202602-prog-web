@@ -525,3 +525,29 @@ footer {
     max-width: 700px;
     margin: 0 auto 20px auto;
 }
+
+#ropa, #industrial {
+    scroll-margin-top: 90px;
+    padding-top: 10px;
+}
+
+
+.contenedor {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+@media (min-width: 768px) {
+  .contenedor {
+    flex-direction: row; 
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
